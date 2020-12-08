@@ -1,0 +1,30 @@
+body{
+    background-color: #f5f5f5;
+}
+
+span {
+    font-size: 18pt;
+    padding-right: 3px;
+}
+ul {
+    list-style: none;
+}
+.winter li::before{
+    content: url(images/winter_16.png);
+    padding-right: 3px;
+}
+
+.spring li::before{
+    content: url(images/spring_16.png);
+    padding-right: 3px;
+}
+
+.summer li::before{
+    content: url(images/summer_16.png);
+    padding-right: 3px;
+}
+
+.autumn li::before{
+    content: url(images/autumn_16.png);
+    padding-right: 3px;
+}
